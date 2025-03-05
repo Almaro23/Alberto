@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const BASE_URL = "http://localhost/Anatomia/public/";
+    const BASE_URL = "";
 
     const cargarUsuarios = async () => {
         try {
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p><strong>Email:</strong> ${usuario.email}</p>
             </div>`;
 
-        container1.appendChild(div);     
+        container1.appendChild(div);
     };
 
 });

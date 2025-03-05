@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const BASE_URL = "http://localhost/Anatomia/public/";
+    const BASE_URL = "";
 
     // Función para mostrar notificaciones
     const mostrarNotificacion = (mensaje, tipo = 'success') => {
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 toastr.error("Error al eliminar la interpretación");
             }
         }
-        
+
 
     // Agregar event listeners para los botones de eliminar
     document.addEventListener('click', function(e) {
