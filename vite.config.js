@@ -10,6 +10,9 @@ export default defineConfig({
                 'resources/js/panel.js',
                 'resources/js/dashboard.js',
                 'resources/js/informe.js',
+                'resources/js/interpretaciones.js',
+                'resources/js/usuarios.js',
+
             ],
             refresh: true,
         }),
