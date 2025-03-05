@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Función para cargar las muestras existentes
     const cargarMuestras = async () => {
         try {
-            const response = await fetch(`${BASE_URL}/api/v2/muestras/listar`);
+            const response = await fetch(`${BASE_URL}api/v2/muestras/listar`);
             if (!response.ok) throw new Error(`Error: ${response.status}`);
 
             const muestras = await response.json();
